@@ -45,4 +45,4 @@ setup(name="tcp-proxy",
       platforms=["Linux", "MacOS X"],
       license="GNU GPL v3 license",
       packages=find_packages(),
-      entry_points={"console_scripts": ["tcp-proxy = tcp-proxy:main"]})
+      entry_points={"console_scripts": ["tcp-proxy = tcp-proxy.__init__:main"]})
