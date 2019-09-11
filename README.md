@@ -28,9 +28,7 @@ To install setuptools, please follow the instructions in [setuptools](http://pyp
 ### TCP Proxy
 
 ```bash
-git clone https://github.com/Aludirk/tcp-proxy
-cd tcp-proxy
-python setup.py install
+pip install git+https://github.com/TreHack/tcp-proxy.git
 ```
 
 ## Examples

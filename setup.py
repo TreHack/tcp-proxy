@@ -35,15 +35,14 @@ with open("README.md", "w") as readme:
 # Set up application.
 setup(name="tcp-proxy",
       version=__version__,
-      author="Aludirk Wong",
-      author_email="aludirkwong@gmail.com",
-      url="https://github.com/Aludirk/tcp-proxy",
+      author="TreHack",
+      author_email="TreHack@126.com",
+      url="https://github.com/TreHack/tcp-proxy",
       description="TCP proxy.",
       long_description=("A proxy server for TCP socket connections in Python 3, "
                         "it supports the scalable I/O event, epoll and kqueue, for "
                         "high performance in large number of connections."),
       platforms=["Linux", "MacOS X"],
       license="GNU GPL v3 license",
-      packages=find_packages("src"),
-      package_dir={"": "src"},
-      entry_points={"console_scripts": ["tcp-proxy = proxy:main"]})
+      packages=find_packages(),
+      entry_points={"console_scripts": ["tcp-proxy = tcp-proxy:main"]})
