@@ -1,4 +1,4 @@
-# TCP Proxy (0.1.0)
+# TCP Proxy (1.0.0)
 
 - [Introduction](#introduction)
 - [Installation](#installation)
